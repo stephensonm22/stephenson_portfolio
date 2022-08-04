@@ -4,4 +4,4 @@ title: "Mallory's GRAD 606 Portfolio"
 
 Hello. Is this theme working?!
 
-![Test](/Users/stephensonm2/Documents/GRAD 606/Stephenson_PFFProposal_8-2-22.pdf)
+![Test](./Stephenson_PFFProposal_8-2-22.pdf)
