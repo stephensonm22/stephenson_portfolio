@@ -1,5 +1,8 @@
 ---
-title: "About Me"
+output:
+  knitrBootstrap::bootstrap_document:
+  title: "About Me"
+  theme: journal
 ---
 
 I am awesome.
