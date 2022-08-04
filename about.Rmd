@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+output: html_document
 ---
 
 I am da worst.

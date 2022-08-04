@@ -1,5 +1,6 @@
 ---
 title: "Mallory's GRAD 606 Portfolio"
+output: html_document
 ---
 
 Hello. Is this theme working?!
