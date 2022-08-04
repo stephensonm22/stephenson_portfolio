@@ -9,4 +9,5 @@ navbar:
       href: about.html
 output:
   html_document:
-    css: bootstrap.css
+    theme: yeti
+    highlight: monochrome
