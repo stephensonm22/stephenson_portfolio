@@ -3,3 +3,5 @@ title: "Mallory's GRAD 606 Portfolio"
 ---
 
 Hello. Is this theme working?!
+
+<embed src="/Users/stephensonm2/Documents/GRAD 606/Stephenson_PFFProposal_8-2-22.pdf" type="application/pdf">
