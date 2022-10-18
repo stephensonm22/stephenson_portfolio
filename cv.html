@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>cv.knit</title>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="bootstrap.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Mallory's Portfolio</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<center>
+<div id="mallory-stephenson" class="section level1">
+<h1>Mallory Stephenson<br />
+</h1>
+<div id="curriculum-vitae" class="section level3">
+<h3>Curriculum Vitae<br />
+</h3>
+</center>
+<br/> <strong>CONTACT INFORMATION</strong>
+<hr/>
+Virginia Institute for Psychiatric and Behavioral Genetics<br />
+Virginia Commonwealth University<br />
+800 East Leigh Street Box 980126<br />
+Richmond, VA 23298-0126<br />
+Email: <a href="mailto:stephensonm2@vcu.edu" class="email">stephensonm2@vcu.edu</a><br />
+Mobile Phone: (540) 529-5381<br />
+LinkedIn: <a href="https://www.linkedin.com/in/mallory-stephenson/" class="uri">https://www.linkedin.com/in/mallory-stephenson/</a> <br/> <br/> <strong>EDUCATION</strong>
+<hr/>
+<p>Expected May 2024   <strong>Ph.D. in Integrative Life Sciences - Behavioral and Statistical Genetics</strong><br />
+                  Virginia Commonwealth University, Richmond, Virginia<br />
+                  Graduate GPA: 4.0<br />
+</p>
+<p>May 2020           <strong>M.S. in Developmental Psychology</strong><br />
+                  Virginia Commonwealth University, Richmond, Virginia<br />
+                  Graduate GPA: 4.0<br />
+</p>
+May 2018           <strong>B.S. in Biochemistry, B.A. in Psychology</strong><br />
+                  Washington and Lee University, Lexington, Virginia<br />
+                  Valedictorian, Summa Cum Laude<br />
+                  Undergraduate GPA: 4.0<br />
+<br/> <br/> <strong>RESEARCH EXPERIENCE</strong><br />
+
+<hr/>
+<strong>Graduate Research Assistant</strong>, Rutgers University, Department of Psychiatry, October 2020-present<br />
+Supervisor: Dr. Jessica Salvatore<br />
+Research focus: Genetic and environmental influences on alcohol misuse<br />
+Duties: Collaborate with an international, interdisciplinary research team to execute a longitudinal study on the etiology of alcohol misuse in Finnish twins. Assist with survey design. Develop research questions, hypotheses, and analytic plans. Utilize statistical methods appropriate for the analysis of twin data, including mixed effects models, co-twin comparisons, and biometrical modeling. Prepare manuscripts for publication in peer-reviewed journals. Present formal and informal reports on statistical analyses.<br />
+<br/> <strong>Graduate Research Assistant</strong>, Virginia Commonwealth University, Virginia Institute for Psychiatric and Behavioral Genetics, June 2019-present<br />
+Supervisor: Dr. Alexis Edwards<br />
+Research focus: Genetic and environmental influences on substance use and suicidality<br />
+Duties: Generate research questions, hypotheses, and analytic plans across multiple datasets. Complete pre-registration of projects to promote open science. Conduct phenotypic and genetic analyses using a wide range of specialized software. Prepare manuscripts for publication in peer-reviewed journals. Assist with data organization and communication with research study participants. Coordinate with other members of the research team to accomplish shared goals. Present formal and informal reports on data management and analyses.<br />
+<br/> <strong>Graduate Research Assistant</strong>, Virginia Commonwealth University, Examining Development, Genes, and Environment (EDGE) Lab, August 2018-December 2019<br />
+Supervisors: Dr. Danielle Dick, Dr. Jessica Salvatore<br />
+Research focus: Genetic and environmental influences on substance use<br />
+Duties: Developed research questions and analytic plans. Executed phenotypic and genetic analyses. Presented data in peer-reviewed journals and poster presentations. Collaborated with other members of the research team to accomplish shared goals.<br />
+<br/> <strong>Research Assistant</strong>, Washington and Lee University, Social Psychology Lab, Fall 2016  <br />
+Supervisor: Dr. Julie Woodzicka<br />
+Research focus: Effect of gender expression on evaluations of scientists’ competence<br />
+Duties: Developed research questions and hypotheses. Collected data using Amazon’s Mechanical Turk. Analyzed and presented data in paper and poster formats.<br />
+<br/> <strong>Howard Hughes Medical Institute Research Fellow</strong>, Washington and Lee University, Department of Chemistry and Biochemistry, January 2015-August 2016<br />
+Supervisor: Dr. Erich Uffelman<br />
+Research focus: Chemical analysis of cultural heritage objects<br />
+Duties: Examined paintings in academic and museum settings. Collaborated closely with conservators and art historians. Utilized multispectral imaging, scanning electron microscopy, ultraviolet imaging, and X-ray fluorescence spectroscopy. Prepared reports to communicate findings to collaborators and guide conservation efforts.<br />
+<br/> <br/> <strong>PEER-REVIEWED MANUSCRIPTS</strong><br />
+
+<hr/>
+Barr, P. B., Driver, M. N., Kuo, S. I., <strong>Stephenson, M.</strong>, Aliev, F., Linner, R. K., Marks, J., Anokhin, A. P., Bucholz, K., Chan, G., Edenberg, H. J., Edwards, A. C., Francis, M. W., Hancock, D. B., Harden, K. P., Kamarajan, C., Kaprio, J., Kinreich, S., Kramer, J., Kuperman, S., Latvala, A., Meyers, J. L., Palmer, A. A., Plawecki, M. H., Porjesz, B., Rose, R. J., Schuckit, M. A., Salvatore, J. E., &amp; Dick, D. M. (2022). Clinical, environmental, and genetic risk factors for substance use disorders: Characterizing combined effects across multiple cohorts. <em>Molecular Psychiatry</em>. <a href="doi:10.1038/s41380-022-01801-6" class="uri">doi:10.1038/s41380-022-01801-6</a><br />
+<br/> Lannoy, S., Ohlsson, H., <strong>Stephenson, M.</strong>, Kendler, K. S., Sundquist, J., Sundquist, K., &amp; Edwards, A. C. (2022). Risk of non-fatal suicide attempt in individuals with substance use disorder: The roles of aggregate genetic liability and environmental exposures in a Swedish population-based cohort. <em>Addiction</em>, <em>117</em>(11), 2943-2952. <a href="doi:10.1111/add.15965" class="uri">doi:10.1111/add.15965</a><br />
+<br/> Pascale, A., <strong>Stephenson, M.</strong>, Barr, P., Latvala, A., Aaltonen, S., Piirtola, M., Viken, R., Rose, R. J., Kaprio, J., Maes, H., Dick, D. M., &amp; Salvatore, J. E. (2022). Exploring the relationships between adolescent alcohol misuse and later life health outcomes. <em>Alcoholism: Clinical and Experimental Research</em>, <em>46</em>(9), 1753-1765. <a href="doi:10.1111/acer.14917" class="uri">doi:10.1111/acer.14917</a><br />
+<br/> <strong>Stephenson, M.</strong>, Aggen, S. H., Polak, K., Svikis, D. S., Kendler, K. S., &amp; Edwards, A. C. (2022). Patterns and correlates of polysubstance use among individuals with severe alcohol use disorder. <em>Alcohol and Alcoholism</em>, <em>57</em>(5), 622-629. <a href="doi:10.1093/alcalc/agac012" class="uri">doi:10.1093/alcalc/agac012</a><br />
+<br/> <strong>Stephenson, M.</strong>, Aliev, F., Kuo, S. I., Edwards, A. C., Pandey, G., Su, J., Kamarajan, C., Dick, D., &amp; Salvatore, J. E. (2022). The role of adolescent social relationships in promoting alcohol resistance: Interrupting the intergenerational transmission of alcohol misuse. <em>Development and Psychopathology</em>. <a href="doi:10.1017/S0954579422000785" class="uri">doi:10.1017/S0954579422000785</a><br />
+<br/> <strong>Stephenson, M. E.</strong>, Larsson Lönn, S., Salvatore, J. E., Sundquist, J., Kendler, K. S., Sundquist, K., &amp; Edwards, A. C. (2022). Sibling diagnosis with alcohol use disorder is associated with increased risk for suicide attempt. <em>Clinical Psychological Science</em>, 10(2), 374-382. <a href="doi:10.1177/21677026211025041" class="uri">doi:10.1177/21677026211025041</a><br />
+<br/> Thomas, N., Barr, P., Aliev, F., <strong>Stephenson, M.</strong>, Kuo, S., Chan, G., Dick, D. M., Edenberg, H. J., Hesselbrock, V., Kamarajan, C., Kuperman, S., &amp; Salvatore, J. E. (2022). Principal component analysis reduces collider bias in polygenic risk score effect size estimation. <em>Behavior Genetics</em>, <em>52</em>, 268-280. <a href="doi:10.1007/s10519-022-10104-z" class="uri">doi:10.1007/s10519-022-10104-z</a><br />
+<br/> Edwards, A. C., Ohlsson, H., Lannoy, S., <strong>Stephenson, M.</strong>, Crump, C., Sundquist, J., Sundquist, K., &amp; Kendler, K. S. (2021). Shared genetic and environmental etiology between substance use disorders and suicidal behavior. <em>Psychological Medicine</em>. <a href="doi:10.1017/S0033291721004256" class="uri">doi:10.1017/S0033291721004256</a><br />
+<br/> <strong>Stephenson, M.</strong>, Barr, P., Aliev, F., Ksinan, A., Latvala, A., Vuoksimaa, E., Viken, R., Rose, R. J., Kaprio, J., Dick, D., &amp; Salvatore, J. E. (2021). Predicting alcohol dependence symptoms by young adulthood: A co-twin comparisons study. <em>Twin Research and Human Genetics</em>, <em>24</em>(4), 204-216. <a href="doi:10.1017/thg.2021.36" class="uri">doi:10.1017/thg.2021.36</a><br />
+<br/> <strong>Stephenson, M.</strong>, Bollepalli, S., Cazaly, E., Salvatore, J. E., Barr, P., Rose, R. J., Dick, D., Kaprio, J., &amp; Ollikainen, M. (2021). Associations of alcohol consumption with epigenome-wide DNA methylation and epigenetic age acceleration: Individual-level and co-twin comparison analyses. <em>Alcoholism: Clinical and Experimental Research</em>, <em>45</em>(2), 318-328. <a href="doi:10.1111/acer.14528" class="uri">doi:10.1111/acer.14528</a><br />
+<br/> Bourdon, J. L., Tillman, R., Francis, M. W., Dick, D. M., <strong>Stephenson, M.</strong>, Kamarajan, C., Edenberg, H. J., Kramer, J., Kuperman, S., Bucholz, K. K., &amp; McCutcheon, V. V. (2020). Characterization of service use for alcohol problems across generations and sex in adults with alcohol use disorder. <em>Alcoholism: Clinical and Experimental Research</em>, <em>44</em>(3), 746-757. <a href="doi:10.1111/acer.14290" class="uri">doi:10.1111/acer.14290</a><br />
+<br/> Salvatore, J. E., Barr, P. B., <strong>Stephenson, M.</strong>, Aliev, F., I-Chun Kuo, S., Su, J., Agrawal, A., Almasy, L., Bierut, L., Bucholz, K., Chan, G., Edenberg, H. J., Johnson, E. C., McCutcheon, V. V., Meyers, J. L., Schuckit, M., Tischfield, J., Wetherill, L., &amp; Dick, D. M. (2020). Sibling comparisons elucidate the associations between educational attainment polygenic scores and alcohol, nicotine, and cannabis. <em>Addiction</em>, <em>115</em>(2), 337-346. <a href="doi:10.1111/add.14815" class="uri">doi:10.1111/add.14815</a><br />
+<br/> <strong>Stephenson, M.</strong>, Barr, P., Ksinan, A., Aliev, F., Latvala, A., Viken, R., Rose, R., Kaprio, J., Dick, D., &amp; Salvatore, J. E. (2020). Which adolescent factors predict alcohol misuse in young adulthood? A co-twin comparisons study. <em>Addiction</em>, <em>115</em>(5), 877-887. <a href="doi:10.1111/add.14888" class="uri">doi:10.1111/add.14888</a><br />
+<br/> <br/> <strong>GRANTS, HONORS, AND AWARDS</strong><br />
+
+<hr/>
+2022       Honorable Mention, Association for Psychological Science Student Research Award<br />
+2021-present NIH T32 Predoctoral Fellowship, Virginia Commonwealth University<br />
+2021-2022   Research Society on Alcoholism Graduate Student Small Grant<br />
+2018       The James Lewis Howe Award, Washington and Lee University<br />
+2018       The Robinson Award in English Literature, History, and Social Sciences, Washington and Lee University<br />
+2017       Phi Beta Kappa, Washington and Lee University<br />
+2017       The Brackett Priddy Prize, Washington and Lee University<br />
+2017       Washington and Lee University Psychology Departmental Award<br />
+2016       J. Brown Goehring Sophomore Award, Washington and Lee University<br />
+2016       The American Chemical Society Division of Analytical Chemistry Undergraduate Award, Washington and Lee<br />
+          University<br />
+2016       The James D. Davidson Memorial Fund Scholarship, Washington and Lee University<br />
+2016       The James Holt Starling Award, Washington and Lee University<br />
+2016       The James Keith Shillington Scholarship, Washington and Lee University<br />
+2016       The James McDowell Scholarship, Washington and Lee University<br />
+2016       The Luther Seevers Birely Scholarship, Washington and Lee University<br />
+<br/> <br/> <strong>CONFERENCE PRESENTATIONS</strong>
+<hr/>
+<ol style="list-style-type: decimal">
+<li><strong>Stephenson, M.</strong>, Lannoy, S., &amp; Edwards, A. C. (2022, October). <em>Shared genetic liability for alcohol consumption, alcohol problems, and suicidal behavior: Evaluating the role of impulsivity</em>. Poster presented at the World Congress of Psychiatric Genetics, Florence, IT.</li>
+<li><strong>Stephenson, M.</strong>, Lannoy, S., &amp; Edwards, A. C. (2022, June). <em>Shared genetic liability for alcohol consumption, alcohol problems, and suicidal behavior: Evaluating the role of impulsivity</em>. Paper presented at the meeting of the Research Society on Alcoholism, Orlando, FL.</li>
+<li><strong>Stephenson, M.</strong>, Lannoy, S., &amp; Edwards, A. C. (2022, May). <em>Shared genetic liability for alcohol consumption, alcohol problems, and suicide attempt overlaps with the genetic basis of multiple dimensions of impulsivity</em>. Poster presented at the Association for Psychological Science Annual Convention, Chicago, IL.</li>
+<li><strong>Stephenson, M.</strong>, &amp; Edwards, A. C. (2021, October). <em>Investigating the role of substance use and dependence in planned versus unplanned suicide attempt</em>. Poster presented at the International Summit on Suicide Research, Virtual Meeting.</li>
+<li><strong>Stephenson, M.</strong>, &amp; Edwards, A. C. (2021, October). <em>Peer alcohol use and frequency of peer interactions moderate genetic influences on alcohol consumption</em>. Poster presented at the World Congress of Psychiatric Genetics, Virtual Meeting.</li>
+<li><strong>Stephenson, M.</strong>, Aggen, S. H., Polak, K., Svikis, D., Kendler, K. S., &amp; Edwards, A. C. (2021, June). <em>Patterns and correlates of polysubstance use among individuals with severe alcohol use disorder</em>. Poster presented at the meeting of the Research Society on Alcoholism, Virtual Meeting.</li>
+<li><strong>Stephenson, M.</strong>, Barr, P., Aliev, F., Latvala, A., Viken, R., Rose, R., Kaprio, J., Dick, D., &amp; Salvatore, J. E. (2019, June). <em>Which adolescent factors predict alcohol misuse in young adulthood? A co-twin comparisons study</em>. Poster presented at the meeting of the Research Society on Alcoholism, Minneapolis, MN.</li>
+<li><strong>Stephenson, M.</strong>, Barr, P., Aliev, F., Latvala, A., Viken, R., Rose, R., Kaprio, J., Dick, D., &amp; Salvatore, J. E. (2019, January). <em>Describing polygenic associations for alcohol use, ADHD symptoms, cigarette use, and educational attainment: A within-family comparisons study</em>. Poster presented at the meeting of NIDA Genetics Consortium, Bethesda, MD.</li>
+<li><strong>Stephenson, M. E.</strong>, Monteagudo, D., Uffelman, E. S., Rahl, J. (2016, July). <em>Using electron diffraction in scanning electron microscopy to determine mineral types in paint cross-sections: Very preliminary results</em>. Poster presented at the Gordon Research Conference: Scientific Methods in Cultural Heritage, Newry, ME.<br />
+</li>
+</ol>
+<br/> <strong>TEACHING EXPERIENCE</strong><br />
+
+<hr/>
+Fall 2022       Teaching Intern, Phage Hunters, University of Mary Washington<br />
+Spring 2020     Teaching Assistant, Psychopharmacology: Drugs and Behavior, Virginia Commonwealth University<br />
+Fall 2019       Teaching Assistant, Focused Inquiry, Virginia Commonwealth University<br />
+Fall 2019       Consultant, Writing Center, Virginia Commonwealth University<br />
+Spring 2019     Graduate Student Mentor, Spit for Science: Conducting and Understanding Research, Virginia Commonwealth<br />
+              University<br />
+Fall 2017       Teaching Assistant, Statistics and Research Design, Washington and Lee University<br />
+<br/> <br/> <strong>ACADEMIC SERVICE</strong><br />
+
+<hr/>
+2022-present   President, Integrative Life Sciences Student Organization, Virginia Commonwealth University<br />
+2022-present   Graduate Research Symposium Chair, Graduate Student Association, Virginia Commonwealth University<br />
+2021-present   Member, Virginia Institute for Psychiatric and Behavioral Genetics (VIPBG) Inclusion, Diversity, Equity, and Access<br />
+            Committee<br />
+2021-2022     Member-at-Large, Integrative Life Sciences Student Organization, Virginia Commonwealth University<br />
+2021         Facilitator, Virginia Commonwealth University Common Book Discussions<br />
+2020         Panelist, Navigating Research Across Undergraduate, Masters, and PhD Programs, Virginia Commonwealth<br />
+            University<br />
+2019         Judge, Behavioral and Social Sciences Junior Division, Metro Richmond STEM Fair<br />
+2018         Judge, Psychology Capstone, Virginia Commonwealth University<br />
+<br/> <br/> <strong>ADDITIONAL TRAINING</strong><br />
+
+<hr/>
+2022         Advanced Gene Mapping Course, Rockefeller University<br />
+2021         International Workshop on Statistical Genetic Methods for Human Complex Traits, University of Colorado Boulder<br />
+2021         Machine Learning Workshop, Statistical Horizons<br />
+2019         International Workshop on Statistical Genetic Methods for Human Complex Traits, University of Colorado Boulder<br />
+<br/> <br/> <strong>PROFESSIONAL MEMBERSHIPS</strong><br />
+
+<hr/>
+<p>2021-present   Association for Psychological Science<br />
+2020-present   International Society of Psychiatric Genetics<br />
+2018-present   Research Society on Alcoholism<br />
+</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
