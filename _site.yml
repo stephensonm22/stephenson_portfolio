@@ -1,12 +1,12 @@
 name: "portfolio-website"
 output_dir: "."
 navbar:
-  title: "Mallory's GRAD 606 Portfolio"
+  title: "Mallory's Portfolio"
   left:
     - text: "Home"
       href: index.html
-    - text: "About Me"
-      href: about.html
+    - text: "CV"
+      href: cv.html
 output:
   html_document:
-    theme: darkly
+    css: bootstrap.css

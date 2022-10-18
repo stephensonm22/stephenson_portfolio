@@ -2,14 +2,23 @@
 title: "Welcome to My GRAD 606 Portfolio!"
 ---
 
-My name is Mallory Stephenson. I am currently a PhD candidate in the Integrative Life Sciences - Behavioral and Statistical Genetics program at Virginia Commonwealth University. I am also enrolled in the Preparing Future Faculty (PFF) Program, and, this semester, I completed the capstone course of the PFF Program -  GRAD 606: Internship/Externship in Professional Teaching. 
-
-This website presents the components of my GRAD 606 electronic portfolio: 
-1. Statement on the responsible conduct of research
-2. Curriculm vitae
-3. Teaching philosophy
-4. Statement of research interests
-5. Career plan
-6. Sample syllabus
-7. Lesson plan
-8. Final report on the GRAD 606 Internship experience
+```{r echo=F, out.width='35%', out.extra='style="float:left; padding:38px 20px 70px 5px"'}
+knitr::include_graphics("headshot2.jpg")
+```
+<br/>
+My name is Mallory Stephenson. I am currently a PhD candidate in the Integrative Life Sciences program at Virginia Commonwealth University (VCU). This semester, I completed the capstone course of the Preparing Future Faculty Program at VCU -  GRAD 606: Internship/Externship in Professional Teaching. The purpose of GRAD 606 is to provide hands-on experience in a classroom setting. I had the opportunity to serve as a teaching intern for Biology 125: Phage Hunters, an Honors course offered through the Department of Biological Sciences at the University of Mary Washington. I was mentored by Dr. Swati Agrawal, the primary instructor of the course. 
+<br/>
+<br/>
+As part of the Internship in Professional Teaching, students are asked to develop an electronic portfolio appropriate for an academic job search. This website presents the components of my GRAD 606 electronic portfolio: <br/> 
+    1. Statement on the responsible conduct of research \
+    2. Curriculm vitae \
+    3. Teaching philosophy \
+    4. Statement of research interests \
+    5. Career plan \
+    6. Sample syllabus \
+    7. Lesson plan \
+    8. Final report on the GRAD 606 Internship experience \
+<br/>
+<br/>
+<br/>
+<hr/>

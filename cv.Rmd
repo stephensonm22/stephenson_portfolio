@@ -1,0 +1,176 @@
+---
+output: html_document
+---
+
+<center>
+# Mallory Stephenson\
+### Curriculum Vitae\
+</center>
+<br/>
+**CONTACT INFORMATION**
+<hr/>
+Virginia Institute for Psychiatric and Behavioral Genetics\
+Virginia Commonwealth University\
+800 East Leigh Street Box 980126\
+Richmond, VA 23298-0126\
+Email: stephensonm2@vcu.edu\
+Mobile Phone: (540) 529-5381\
+LinkedIn: https://www.linkedin.com/in/mallory-stephenson/
+<br/>
+<br/>
+**EDUCATION**
+<hr/>
+Expected May 2024 &emsp; **Ph.D. in Integrative Life Sciences - Behavioral and Statistical Genetics** \
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Virginia Commonwealth University, Richmond, Virginia \
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Graduate GPA: 4.0 \
+
+May 2020 &emsp; &emsp; &emsp; &emsp; &ensp; **M.S. in Developmental Psychology**\
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Virginia Commonwealth University, Richmond, Virginia \
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Graduate GPA: 4.0 \
+
+May 2018 &emsp; &emsp; &emsp; &emsp; &ensp; **B.S. in Biochemistry, B.A. in Psychology**\
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Washington and Lee University, Lexington, Virginia \
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Valedictorian, Summa Cum Laude \
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Undergraduate GPA: 4.0 \
+<br/>
+<br/>
+**RESEARCH EXPERIENCE**\
+<hr/>
+**Graduate Research Assistant**, Rutgers University, Department of Psychiatry, October 2020-present \
+Supervisor: Dr. Jessica Salvatore \
+Research focus: Genetic and environmental influences on alcohol misuse \
+Duties: Collaborate with an international, interdisciplinary research team to execute a longitudinal study on the etiology of alcohol misuse in Finnish twins. Assist with survey design. Develop research questions, hypotheses, and analytic plans. Utilize statistical methods appropriate for the analysis of twin data, including mixed effects models, co-twin comparisons, and biometrical modeling. Prepare manuscripts for publication in peer-reviewed journals. Present formal and informal reports on statistical analyses. \
+<br/>
+**Graduate Research Assistant**, Virginia Commonwealth University, Virginia Institute for Psychiatric and Behavioral Genetics, June 2019-present \
+Supervisor: Dr. Alexis Edwards \
+Research focus: Genetic and environmental influences on substance use and suicidality \
+Duties: Generate research questions, hypotheses, and analytic plans across multiple datasets. Complete pre-registration of projects to promote open science. Conduct phenotypic and genetic analyses using a wide range of specialized software. Prepare manuscripts for publication in peer-reviewed journals. Assist with data organization and communication with research study participants. Coordinate with other members of the research team to accomplish shared goals. Present formal and informal reports on data management and analyses. \
+<br/>
+**Graduate Research Assistant**, Virginia Commonwealth University, Examining Development, Genes, and Environment (EDGE) Lab, August 2018-December 2019 \
+Supervisors: Dr. Danielle Dick, Dr. Jessica Salvatore \
+Research focus: Genetic and environmental influences on substance use \
+Duties: Developed research questions and analytic plans. Executed phenotypic and genetic analyses. Presented data in peer-reviewed journals and poster presentations. Collaborated with other members of the research team to accomplish shared goals. \
+<br/>
+**Research Assistant**, Washington and Lee University, Social Psychology Lab, Fall 2016	\	   
+Supervisor: Dr. Julie Woodzicka \
+Research focus: Effect of gender expression on evaluations of scientists’ competence \
+Duties: Developed research questions and hypotheses. Collected data using Amazon’s Mechanical Turk. Analyzed and presented data in paper and poster formats. \
+<br/>
+**Howard Hughes Medical Institute Research Fellow**, Washington and Lee University, Department of Chemistry and Biochemistry, January 2015-August 2016 \
+Supervisor: Dr. Erich Uffelman \
+Research focus: Chemical analysis of cultural heritage objects \
+Duties: Examined paintings in academic and museum settings. Collaborated closely with conservators and art historians. Utilized multispectral imaging, scanning electron microscopy, ultraviolet imaging, and X-ray fluorescence spectroscopy. Prepared reports to communicate findings to collaborators and guide conservation efforts. \
+<br/>
+<br/>
+**PEER-REVIEWED MANUSCRIPTS**\
+<hr/>
+Barr, P. B., Driver, M. N., Kuo, S. I., **Stephenson, M.**, Aliev, F., Linner, R. K., Marks, J., Anokhin, A. P., Bucholz, K., Chan, G., Edenberg, H. J., Edwards, A. C., Francis, M. W., Hancock, D. B., Harden, K. P., Kamarajan, C., Kaprio, J., Kinreich, S., Kramer, J., Kuperman, S., Latvala, A., Meyers, J. L., Palmer, A. A., Plawecki, M. H., Porjesz, B., Rose, R. J., Schuckit, M. A., Salvatore, J. E., & Dick, D. M. (2022). Clinical, environmental, and genetic risk factors for substance use disorders: Characterizing combined effects across multiple cohorts. *Molecular Psychiatry*. doi:10.1038/s41380-022-01801-6 \
+<br/>
+Lannoy, S., Ohlsson, H., **Stephenson, M.**, Kendler, K. S., Sundquist, J., Sundquist, K., & Edwards, A. C. (2022). Risk of non-fatal suicide attempt in individuals with substance use disorder: The roles of aggregate genetic liability and environmental exposures in a Swedish population-based cohort. *Addiction*, *117*(11), 2943-2952. doi:10.1111/add.15965 \
+<br/>
+Pascale, A., **Stephenson, M.**, Barr, P., Latvala, A., Aaltonen, S., Piirtola, M., Viken, R., Rose, R. J., Kaprio, J., Maes, H., Dick, D. M., & Salvatore, J. E. (2022). Exploring the relationships between adolescent alcohol misuse and later life health outcomes. *Alcoholism: Clinical and Experimental Research*, *46*(9), 1753-1765. doi:10.1111/acer.14917 \
+<br/>
+**Stephenson, M.**, Aggen, S. H., Polak, K., Svikis, D. S., Kendler, K. S., & Edwards, A. C. (2022). Patterns and correlates of polysubstance use among individuals with severe alcohol use disorder. *Alcohol and Alcoholism*, *57*(5), 622-629. doi:10.1093/alcalc/agac012 \
+<br/>
+**Stephenson, M.**, Aliev, F., Kuo, S. I., Edwards, A. C., Pandey, G., Su, J., Kamarajan, C., Dick, D., & Salvatore, J. E. (2022). The role of adolescent social relationships in promoting alcohol resistance: Interrupting the intergenerational transmission of alcohol misuse. *Development and Psychopathology*. doi:10.1017/S0954579422000785 \
+<br/>
+**Stephenson, M. E.**, Larsson Lönn, S., Salvatore, J. E., Sundquist, J., Kendler, K. S., Sundquist, K., & Edwards, A. C. (2022). Sibling diagnosis with alcohol use disorder is associated with increased risk for suicide attempt. *Clinical Psychological Science*, 10(2), 374-382. doi:10.1177/21677026211025041 \
+<br/>
+Thomas, N., Barr, P., Aliev, F., **Stephenson, M.**, Kuo, S., Chan, G., Dick, D. M., Edenberg, H. J., Hesselbrock, V., Kamarajan, C., Kuperman, S., & Salvatore, J. E. (2022). Principal component analysis reduces collider bias in polygenic risk score effect size estimation. *Behavior Genetics*, *52*, 268-280. doi:10.1007/s10519-022-10104-z \
+<br/>
+Edwards, A. C., Ohlsson, H., Lannoy, S., **Stephenson, M.**, Crump, C., Sundquist, J., Sundquist, K., & Kendler, K. S. (2021). Shared genetic and environmental etiology between substance use disorders and suicidal behavior. *Psychological Medicine*. doi:10.1017/S0033291721004256 \
+<br/>
+**Stephenson, M.**, Barr, P., Aliev, F., Ksinan, A., Latvala, A., Vuoksimaa, E., Viken, R., Rose, R. J., Kaprio, J., Dick, D., & Salvatore, J. E. (2021). Predicting alcohol dependence symptoms by young adulthood: A co-twin comparisons study. *Twin Research and Human Genetics*, *24*(4), 204-216. doi:10.1017/thg.2021.36 \
+<br/>
+**Stephenson, M.**, Bollepalli, S., Cazaly, E., Salvatore, J. E., Barr, P., Rose, R. J., Dick, D., Kaprio, J., & Ollikainen, M. (2021). Associations of alcohol consumption with epigenome-wide DNA methylation and epigenetic age acceleration: Individual-level and co-twin comparison analyses. *Alcoholism: Clinical and Experimental Research*, *45*(2), 318-328. doi:10.1111/acer.14528 \
+<br/>
+Bourdon, J. L., Tillman, R., Francis, M. W., Dick, D. M., **Stephenson, M.**, Kamarajan, C., Edenberg, H. J., Kramer, J., Kuperman, S., Bucholz, K. K., & McCutcheon, V. V. (2020). Characterization of service use for alcohol problems across generations and sex in adults with alcohol use disorder. *Alcoholism: Clinical and Experimental Research*, *44*(3), 746-757. doi:10.1111/acer.14290 \
+<br/>
+Salvatore, J. E., Barr, P. B., **Stephenson, M.**, Aliev, F., I-Chun Kuo, S., Su, J., Agrawal, A., Almasy, L., Bierut, L., Bucholz, K., Chan, G., Edenberg, H. J., Johnson, E. C., McCutcheon, V. V., Meyers, J. L., Schuckit, M., Tischfield, J., Wetherill, L., & Dick, D. M. (2020). Sibling comparisons elucidate the associations between educational attainment polygenic scores and alcohol, nicotine, and cannabis. *Addiction*, *115*(2), 337-346. doi:10.1111/add.14815 \
+<br/>
+**Stephenson, M.**, Barr, P., Ksinan, A., Aliev, F., Latvala, A., Viken, R., Rose, R., Kaprio, J., Dick, D., & Salvatore, J. E. (2020). Which adolescent factors predict alcohol misuse in young adulthood? A co-twin comparisons study. *Addiction*, *115*(5), 877-887. doi:10.1111/add.14888 \
+<br/>
+<br/>
+**GRANTS, HONORS, AND AWARDS** \
+<hr/>
+2022 &emsp; &emsp; &emsp; Honorable Mention, Association for Psychological Science Student Research Award \
+2021-present NIH T32 Predoctoral Fellowship, Virginia Commonwealth University \
+2021-2022 &emsp;	Research Society on Alcoholism Graduate Student Small Grant \
+2018 &emsp; &emsp; &emsp;	The James Lewis Howe Award, Washington and Lee University \
+2018 &emsp; &emsp; &emsp;	The Robinson Award in English Literature, History, and Social Sciences, Washington and Lee University \
+2017 &emsp; &emsp; &emsp;	Phi Beta Kappa, Washington and Lee University \
+2017 &emsp; &emsp; &emsp;	The Brackett Priddy Prize, Washington and Lee University \
+2017 &emsp; &emsp; &emsp;	Washington and Lee University Psychology Departmental Award \
+2016 &emsp; &emsp; &emsp;	J. Brown Goehring Sophomore Award, Washington and Lee University \
+2016 &emsp; &emsp; &emsp;	The American Chemical Society Division of Analytical Chemistry Undergraduate Award, Washington and Lee \
+&emsp; &emsp; &emsp; &emsp; &emsp; University \
+2016 &emsp; &emsp; &emsp;	The James D. Davidson Memorial Fund Scholarship, Washington and Lee University \
+2016 &emsp; &emsp; &emsp;	The James Holt Starling Award, Washington and Lee University \
+2016 &emsp; &emsp; &emsp;	The James Keith Shillington Scholarship, Washington and Lee University \
+2016 &emsp; &emsp; &emsp;	The James McDowell Scholarship, Washington and Lee University \
+2016 &emsp; &emsp; &emsp;	The Luther Seevers Birely Scholarship, Washington and Lee University \
+<br/>
+<br/>
+**CONFERENCE PRESENTATIONS**
+<hr/>
+
+1. **Stephenson, M.**, Lannoy, S., & Edwards, A. C. (2022, October). *Shared genetic liability for alcohol consumption, alcohol problems, and suicidal behavior: Evaluating the role of impulsivity*. Poster presented at the World Congress of Psychiatric Genetics, Florence, IT.
+2. **Stephenson, M.**, Lannoy, S., & Edwards, A. C. (2022, June). *Shared genetic liability for alcohol consumption, alcohol problems, and suicidal behavior: Evaluating the role of impulsivity*. Paper presented at the meeting of the Research Society on Alcoholism, Orlando, FL. 
+3. **Stephenson, M.**, Lannoy, S., & Edwards, A. C. (2022, May). *Shared genetic liability for alcohol consumption, alcohol problems, and suicide attempt overlaps with the genetic basis of multiple dimensions of impulsivity*. Poster presented at the Association for Psychological Science Annual Convention, Chicago, IL.
+4. **Stephenson, M.**, & Edwards, A. C. (2021, October). *Investigating the role of substance use and dependence in planned versus unplanned suicide attempt*. Poster presented at the International Summit on Suicide Research, Virtual Meeting.
+5. **Stephenson, M.**, & Edwards, A. C. (2021, October). *Peer alcohol use and frequency of peer interactions moderate genetic influences on alcohol consumption*. Poster presented at the World Congress of Psychiatric Genetics, Virtual Meeting.
+6. **Stephenson, M.**, Aggen, S. H., Polak, K., Svikis, D., Kendler, K. S., & Edwards, A. C. (2021, June). *Patterns and correlates of polysubstance use among individuals with severe alcohol use disorder*. Poster presented at the meeting of the Research Society on Alcoholism, Virtual Meeting.
+7. **Stephenson, M.**, Barr, P., Aliev, F., Latvala, A., Viken, R., Rose, R., Kaprio, J., Dick, D., & Salvatore, J. E. (2019, June). *Which adolescent factors predict alcohol misuse in young adulthood? A co-twin comparisons study*. Poster presented at the meeting of the Research Society on Alcoholism, Minneapolis, MN.
+8. **Stephenson, M.**, Barr, P., Aliev, F., Latvala, A., Viken, R., Rose, R., Kaprio, J., Dick, D., & Salvatore, J. E. (2019, January). *Describing polygenic associations for alcohol use, ADHD symptoms, cigarette use, and educational attainment: A within-family comparisons study*. Poster presented at the meeting of NIDA Genetics Consortium, Bethesda, MD. 
+9. **Stephenson, M. E.**, Monteagudo, D., Uffelman, E. S., Rahl, J. (2016, July). *Using electron diffraction in scanning electron microscopy to determine mineral types in paint cross-sections: Very preliminary results*. Poster presented at the Gordon Research Conference: Scientific Methods in Cultural Heritage, Newry, ME. \
+
+<br/>
+**TEACHING EXPERIENCE** \
+<hr/>
+Fall 2022 &emsp; &emsp; &emsp; Teaching Intern, Phage Hunters, University of Mary Washington \
+Spring 2020 &emsp; &emsp;  Teaching Assistant, Psychopharmacology: Drugs and Behavior, Virginia Commonwealth University \
+Fall 2019 &emsp; &emsp; &emsp; Teaching Assistant, Focused Inquiry, Virginia Commonwealth University \
+Fall 2019 &emsp; &emsp; &emsp; Consultant, Writing Center, Virginia Commonwealth University \
+Spring 2019 &emsp; &emsp; Graduate Student Mentor, Spit for Science: Conducting and Understanding Research, Virginia Commonwealth \
+&emsp; &emsp; &emsp; &emsp; &emsp; &ensp; &emsp; University \
+Fall 2017 &emsp; &emsp; &emsp; Teaching Assistant, Statistics and Research Design, Washington and Lee University \
+<br/>
+<br/>
+**ACADEMIC SERVICE** \
+<hr/>
+2022-present &emsp; President, Integrative Life Sciences Student Organization, Virginia Commonwealth University \
+2022-present &emsp; Graduate Research Symposium Chair, Graduate Student Association, Virginia Commonwealth University \
+2021-present &emsp; Member, Virginia Institute for Psychiatric and Behavioral Genetics (VIPBG) Inclusion, Diversity, Equity, and Access \
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Committee \
+2021-2022 &emsp; &emsp; Member-at-Large, Integrative Life Sciences Student Organization, Virginia Commonwealth University \
+2021 &emsp; &emsp; &emsp; &emsp; Facilitator, Virginia Commonwealth University Common Book Discussions \
+2020 &emsp; &emsp; &emsp; &emsp; Panelist, Navigating Research Across Undergraduate, Masters, and PhD Programs, Virginia Commonwealth \
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; University \
+2019 &emsp; &emsp; &emsp; &emsp; Judge, Behavioral and Social Sciences Junior Division, Metro Richmond STEM Fair \
+2018 &emsp; &emsp; &emsp; &emsp; Judge, Psychology Capstone, Virginia Commonwealth University \
+<br/>
+<br/>
+**ADDITIONAL TRAINING** \
+<hr/>
+2022 &emsp; &emsp; &emsp; &emsp; Advanced Gene Mapping Course, Rockefeller University \
+2021 &emsp; &emsp; &emsp; &emsp; International Workshop on Statistical Genetic Methods for Human Complex Traits, University of Colorado Boulder \
+2021 &emsp; &emsp; &emsp; &emsp; Machine Learning Workshop, Statistical Horizons \
+2019 &emsp; &emsp; &emsp; &emsp; International Workshop on Statistical Genetic Methods for Human Complex Traits, University of Colorado Boulder \
+<br/>
+<br/>
+**PROFESSIONAL MEMBERSHIPS** \
+<hr/>
+2021-present &emsp; Association for Psychological Science \
+2020-present &emsp; International Society of Psychiatric Genetics \
+2018-present &emsp; Research Society on Alcoholism \
+
+
+
+
+
+
+
+
+
+
+
