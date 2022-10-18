@@ -1,7 +1,15 @@
 ---
-title: "Mallory's GRAD 606 Portfolio"
+title: "Welcome to My GRAD 606 Portfolio!"
 ---
 
-Hello. Is this theme working?!
+My name is Mallory Stephenson. I am currently a PhD candidate in the Integrative Life Sciences - Behavioral and Statistical Genetics program at Virginia Commonwealth University. I am also enrolled in the Preparing Future Faculty (PFF) Program, and, this semester, I completed the capstone course of the PFF Program -  GRAD 606: Internship/Externship in Professional Teaching. 
 
-![Test](./Stephenson_PFFProposal_8-2-22.pdf)
+This website presents the components of my GRAD 606 electronic portfolio: 
+1. Statement on the responsible conduct of research
+2. Curriculm vitae
+3. Teaching philosophy
+4. Statement of research interests
+5. Career plan
+6. Sample syllabus
+7. Lesson plan
+8. Final report on the GRAD 606 Internship experience
