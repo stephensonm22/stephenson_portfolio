@@ -9,6 +9,8 @@ navbar:
       href: cv.html
     - text: "RCR"
       href: rcr.html
+    - text: "Sample Activities"
+      href: activities.html
 output:
   html_document:
     css: bootstrap.css

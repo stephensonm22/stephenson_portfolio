@@ -2,7 +2,7 @@
 title: "Welcome to My GRAD 606 Portfolio!"
 ---
 
-```{r echo=F, out.width='35%', out.extra='style="float:left; padding:38px 20px 70px 5px"'}
+```{r echo=F, out.width='35%', out.extra='style="float:left; padding:38px 20px 55px 5px"'}
 knitr::include_graphics("headshot2.jpg")
 ```
 <br/>
@@ -16,7 +16,7 @@ As part of the Internship in Professional Teaching, students are asked to develo
     4. Statement of research interests \
     5. Career plan \
     6. Sample syllabus \
-    7. Lesson plan \
+    7. Sample lesson plan, assignments, and activities \
     8. Final report on the GRAD 606 Internship experience \
 <br/>
 <br/>

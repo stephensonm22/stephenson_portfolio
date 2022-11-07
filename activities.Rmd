@@ -1,0 +1,48 @@
+---
+title: "Sample Lesson Plan, Assignments, and Activities"
+output: html_document
+---
+<br/>
+
+During my internship at the University of Mary Washington, I had the opportunity to lead a class session on restriction enzymes. Downloadable versions of the lesson outline, lecture slides, and activity from this class session are linked below. It should be noted that I drafted the lesson outline and lecture slides but did not create the Paper Restriction Enzyme Activity. This activity was created by Swati Agrawal (University of Mary Washington), Matthew Mastropaolo (Neumann University), Sara Anderson (Minnesota State University Moorhead), Bryan Gibb (New York Institute of Technology), and Dustin Edwards (Tarleton State University). The Paper Restriction Enzyme Activity is available for use by other Phage Hunters instructors.
+
+```{r echo=F}
+library(downloadthis)
+download_link(
+  link = "https://github.com/stephensonm22/stephenson_portfolio/blob/master/RestrictionEnzymes_LessonOutline.docx",
+  button_label = "Download Lesson Outline",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+
+download_link(
+  link = "https://github.com/stephensonm22/stephenson_portfolio/blob/master/RestrictionEnzymeLecture.pptx",
+  button_label = "Download Lecture Slides",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+
+download_link(
+  link = "https://github.com/stephensonm22/stephenson_portfolio/blob/master/2%20-%20Paper%20Restriction%20Enzyme%20Activity.pdf",
+  button_label = "Download Activity",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+
+```
+
+<br/>
+
+I created several additional products during the Internship in Professional Teaching. Each product is briefly described and linked below:
+
+1. I led a review session for students in preparation for their second exam. I drafted [several questions](https://github.com/stephensonm22/stephenson_portfolio/blob/master/BIOL%20125%20Exam%202%20Review%20Questions%20(1).pdf) for them to complete prior to the session, and we discussed their answers, as well as any areas of confusion, during the review. \
+
+2. I drafted a [rubric](https://github.com/stephensonm22/stephenson_portfolio/blob/master/BIOL125_LabNotebookRubric2.docx) to assist with grading students' lab notebooks. \
+
+3. At the end of the semester, students submitted a lab report to describe their efforts to isolate and characterize a novel bacteriophage. I created two intermediate assignments as opportunities for students to receive feedback and revise their work before submitting their final report. First, students were asked to submit a draft of the Introduction and References section of their report. I created the [assignment](https://github.com/stephensonm22/stephenson_portfolio/blob/master/LabReport_IntroductionAssignment.docx) and associated [grading rubric](https://github.com/stephensonm22/stephenson_portfolio/blob/master/BIOL125_LabReportIntroRubric.docx). Second, I created a [literature matrix](https://github.com/stephensonm22/stephenson_portfolio/blob/master/BIOL125_LitMatrix.docx), which guides the process of selecting and synthesizing sources, for students to complete and submit approximately one week before their Introduction was due.
