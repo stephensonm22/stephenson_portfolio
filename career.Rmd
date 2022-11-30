@@ -5,6 +5,7 @@ output: html_document
 <br/>
 I am currently a third-year student in the Integrative Life Sciences – Behavioral and Statistical Genetics Ph.D. program at Virginia Commonwealth University (VCU). My graduate training has allowed me to cultivate my research interests in genetic and environmental influences on suicidal behavior and substance use disorders, while also gaining experience with teaching and mentorship. I have published six first-author papers, presented my work at numerous conferences, and completed two teaching assistantships (with a teaching internship in progress). Each of these experiences has further reinforced my interest in pursuing a faculty position with a combination of research and teaching responsibilities.\ 
 <br/>
+
 My long-term professional goals are to make meaningful contributions to the literature on suicidal behavior, encourage students’ interests in genetics, statistics, and mental health, and engage students as research collaborators. Accordingly, it will be critical for me to further develop my research, teaching, and mentorship abilities over the next five years. My specific short-term goals are to (1) build my confidence and abilities as an independent researcher, (2) diversify my knowledge of research methods and topics, (3) gain experience with formal classroom instruction, and (4) identify and obtain a faculty appointment that matches my professional interests and personal values.\
 <br/>
 **General Timeline**\
