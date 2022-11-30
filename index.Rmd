@@ -10,8 +10,8 @@ My name is Mallory Stephenson. I am currently a PhD candidate in the Integrative
 <br/>
 <br/>
 As part of the Internship in Professional Teaching, students are asked to develop an electronic portfolio appropriate for an academic job search. This website presents the components of my GRAD 606 electronic portfolio: <br/> 
-    1. Curriculm vitae \
-    2. Statement on the responsible conduct of research \ 
+    1. Curriculum vitae \
+    2. Statement on the responsible conduct of research \
     3. Teaching philosophy \
     4. Statement of research interests \
     5. Career plan \
