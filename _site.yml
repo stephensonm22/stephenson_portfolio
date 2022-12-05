@@ -11,10 +11,16 @@ navbar:
       href: rcr.html
     - text: "Teaching"
       href: teaching.html
+    - text: "Research"
+      href: research.html
     - text: "Career Plan"
       href: career.html
+    - text: "Syllabus"
+      href: syllabus.html
     - text: "Sample Activities"
       href: activities.html
+    - text: "Final Report"
+      href: report.html
 output:
   html_document:
     css: bootstrap.css

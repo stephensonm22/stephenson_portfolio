@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Final Report of the Capstone Experience</title>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="bootstrap.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Mallory's Portfolio</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+<li>
+  <a href="rcr.html">RCR</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="career.html">Career Plan</a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="activities.html">Sample Activities</a>
+</li>
+<li>
+  <a href="report.html">Final Report</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Final Report of the Capstone Experience</h1>
+
+</div>
+
+
+<p><br/> For the Internship/Externship in Professional Teaching, I served as a teaching intern for Biology 125: Phage Hunters. Phage Hunters is offered as an Honors course through the Department of Biological Sciences at the University of Mary Washington. The course is part of a pilot initiative developed by the Howard Hughes Medical Institute’s Science Education Alliance, and the overarching goal is to increase undergraduate interest in the biological sciences through immersion in research. The primary instructor for the course was Dr. Swati Agrawal. At the beginning of the semester, Dr. Agrawal and I agreed upon four learning objectives for the internship experience:<br />
+</p>
+<ol style="list-style-type: decimal">
+<li>To become comfortable engaging in all stages of the teaching and learning process.<br />
+</li>
+<li>To build mentorship skills by providing both course-specific and general academic support to students.<br />
+</li>
+<li>To understand the roles and responsibilities of a faculty member at a liberal arts institution.<br />
+</li>
+<li>To enhance the teaching experience through reflective practice and preparation of materials for the academic job market.<br />
+</li>
+</ol>
+<p><br/> Below, I consider each of these learning outcomes in turn.<br />
+<br/> <strong>Learning Objective 1</strong><br />
+My first objective was to become comfortable engaging in all stages of the teaching and learning process, including course development, classroom instruction, lab-based instruction, and evaluation of students’ progress.<br />
+<br/> <em>Course Development</em><br />
+Throughout the internship experience, I had the opportunity to participate in a number of activities related to course development. For example, I assisted Dr. Agrawal in preparing the course syllabus by adding a section on “Tips for Success” and providing feedback on the grading distribution. I also revised and reformatted the course’s lab manual. Because the original lab manual was provided by the Howard Hughes Medical Institute, it did not necessarily reflect the procedures used in class, and the formatting of the document resulted in unnecessary pages (and printing costs). Thus, I started a new document with simpler formatting. I removed unnecessary text and graphics to make the lab manual more usable for students and updated the text to reflect any changes that Dr. Agrawal made to the protocols throughout the semester.<br />
+<br/> I also had the opportunity to compose an assignment for students. As part of Phage Hunters, students were expected to submit a lab report detailing their work isolating, amplifying, and characterizing bacteriophages. Two intermediate assignments were given so that students could submit drafts of their work, receive feedback, and make revisions. I prepared the instructions for the first assignment: a draft of the Introduction section of their report. Specifically, I described the structure of a lab report, communicated our expectations for the Introduction section, and provided a tutorial on how to locate peer-reviewed articles. I also drafted a rubric to clarify how points would be assigned. Moreover, I collaborated with Dr. Agrawal to help students select relevant peer-reviewed articles for their report. We implemented two “checkpoints” for students before their Introduction draft was due. First, students were asked to submit their sources to me or Dr. Agrawal so that we could ensure (1) students had identified the requested number of review and primary research articles, (2) the articles were peer-reviewed, and (3) the sources provided useful information for their Introduction. Second, students were asked to complete a literature matrix to organize and synthesize their peer-reviewed sources. I drafted the literature matrix and attended class virtually to administer the assignment.<br />
+<br/> Through my involvement with the Introduction assignment, I gained valuable experience with composing clear, specific instructions for students. Dr. Agrawal’s mentorship was critical: Because I am affiliated with an institute composed of only faculty, post-doctoral fellows, and graduate students, I was making a number of erroneous assumptions about students’ prior knowledge. For example, in my first draft of the Introduction assignment, I failed to clarify what makes an article peer-reviewed, and I did not provide any guidance on how to find peer-reviewed sources, assuming that students would know how to do so. Dr. Agrawal’s feedback helped me to further hone the assignment so that the instructions were more detailed and suitable for a first-year undergraduate student. Throughout the course of this assignment, I also appreciated Dr. Agrawal’s emphasis on students’ learning. After students submitted drafts of the Introduction and Methods sections of their report, we provided detailed feedback and gave them the opportunity to revise each section before submitting their final lab report. In our individual meetings, Dr. Agrawal explained that the revision process was a more effective mechanism to develop students’ writing abilities than simply assigning a numeric grade.<br />
+<br/></p>
+<p><em>Classroom Instruction</em><br />
+The Internship/Externship in Professional Teaching also afforded me the opportunity to participate in classroom instruction. I prepared and delivered a lecture on restriction enzymes, which provided valuable experience with developing course content, lecturing, and facilitating in-class activities. I also led two review sessions over the course of the semester. For each review session, I created a set of questions targeting some of the more difficult concepts covered in class. Students had an opportunity to attempt the questions on their own, and then I explained the correct answer to each question and responded to any areas of confusion. Both sessions were attended by 5 to 10 students. I particularly enjoyed working with students in a smaller group, as they were able to collaborate with one another, ask deeper questions about the material, and make connections between different topics from lecture.<br />
+<br/></p>
+<p><em>Lab-Based Instruction</em><br />
+I usually attended Phage Hunters on Fridays, which were dedicated to laboratory instruction. Gaining experience with lab-based instruction was a critical component of my internship because I am enrolled in an interdisciplinary doctoral program (Integrative Life Sciences – Behavioral and Statistical Genetics) and would be eligible for a faculty position in either a psychology or biology department. However, my previous teaching positions were in lecture-based psychology and writing courses. This semester, I expanded my teaching portfolio by assisting with weekly laboratory sessions. During each lab, I circulated the room to answer students’ questions and identify individuals who were struggling with a particular step of the protocol. I helped students with minor issues (e.g., locating materials that were not at their bench), broader questions about the purpose of a particular step or procedure, and troubleshooting. Though I valued the opportunity to engage with students as they gained hands-on research experience, I quickly realized that one limitation of my graduate training is a lack of experience with laboratory benchwork. My doctoral research primarily involves statistics and bioinformatics, and I felt out of practice with even basic laboratory techniques, like micropipetting and gel electrophoresis. If I would like to pursue a faculty appointment in a biology department, I now realize it may be important for me to attain a post-doctoral fellowship in a lab that works directly with biological samples. I am thankful that I chose to complete the Internship/Externship in Professional Teaching at this stage in my training, as I have ample time to identify the academic discipline for which I am best suited and tailor my teaching and research experience accordingly.<br />
+<br/></p>
+<p><em>Evaluation of Students’ Performance</em><br />
+Finally, I assisted with grading several assignments, such as in-class worksheets and students’ laboratory notebooks. I also provided detailed feedback on students’ lab reports, including their literature matrix and preliminary drafts of the Introduction and Methods sections. The opportunity to review and evaluate students’ assignments was quite useful, providing insight into common misunderstandings and allowing me to practice delivering consistent, detailed feedback.<br />
+<br/></p>
+<p><strong>Learning Objective 2</strong><br />
+My second aim was to build mentorship skills by providing both course-specific and general academic support to students. Accordingly, I hosted weekly office hours, where I answered questions on the material covered during lecture and provided guidance on their lab reports. I was also available to answer students’ questions via e-mail. However, one challenge that Dr. Agrawal and I faced was low attendance at office hours; my virtual office hours, in particular, were often unattended. Though low office hour attendance somewhat reduced my ability to engage in mentorship, I think it underscores students’ desire for in-person interaction, particularly students who choose to attend a liberal arts institution with small class sizes. In that way, I was actually encouraged by their tendency to interact with Dr. Agrawal in-person (versus me virtually). They felt comfortable with Dr. Agrawal and were excited to learn about her experiences; likewise, I am eager to develop meaningful relationships with students as a faculty member.<br />
+<br/></p>
+<p><strong>Learning Objective 3</strong><br />
+My third objective was to understand the roles and responsibilities of a faculty member at a liberal arts institution. My individual meetings with Dr. Agrawal were especially informative about the responsibilities of a faculty member; through our discussions, I have gained valuable insight into her experiences with the hiring process, balancing teaching and research responsibilities, and tenure. For example, at the beginning of the semester, Dr. Agrawal kindly gave me a tour of the Department of Biological Sciences, including their laboratory spaces. She shared her own experience with applying and interviewing for faculty positions, and she encouraged me consider factors like availability of dedicated laboratory spaces and equipment, start-up support, priorities of the department, and expectations for research and teaching. Throughout the semester, my conversations with Dr. Agrawal have provided me with a more nuanced understanding of faculty positions at liberal arts colleges; substantial variation exists among liberal arts institutions, and I will need to consider how my priorities align with the priorities of the department and institution when applying for jobs.<br />
+<br/></p>
+<p><strong>Learning Objective 4</strong><br />
+My final objective for the internship was to enhance the teaching experience through reflective practice and preparation of materials for the academic job market. To do this, I maintained a journal of my activities and reflections on the internship experience, which informed the current report. In addition, I created a website to house the components of my GRAD 606 portfolio, including a statement on the responsible conduct of research, curriculum vitae, teaching philosophy, statement of my research interests, career plan, sample syllabus, and sample lesson plan. These materials will prove invaluable when I enter the academic job market.</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

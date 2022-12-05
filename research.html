@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research Statement</title>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="bootstrap.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Mallory's Portfolio</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+<li>
+  <a href="rcr.html">RCR</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="career.html">Career Plan</a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="activities.html">Sample Activities</a>
+</li>
+<li>
+  <a href="report.html">Final Report</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Research Statement</h1>
+
+</div>
+
+
+<p><br/> <strong>Overview of Research Interests</strong><br />
+As a psychiatric genetics researcher, I apply principles of both behavioral genetics and developmental psychology to investigate the development of alcohol use disorder (AUD) and suicidal behavior. My undergraduate and graduate training spans diverse disciplines, including biochemistry, developmental psychology, and statistical genetics. Correspondingly, my work integrates genetically-informed approaches with theoretical frameworks to better understand the etiology of psychiatric disorder. I find the study of familial influences on alcohol outcomes and suicidality to be particularly compelling, providing an opportunity to disentangle the roles of genetic variation, familial relationships, and environmental contexts that vary between families, such as neighborhood characteristics. The continuation of my research plan will reflect my interest in applying a variety of statistical methods and theoretical perspectives, while also facilitating opportunities to engage in undergraduate student mentorship.<br />
+<br/></p>
+<p><strong>Past Work on Alcohol Problems and Suicidal Behavior</strong><br />
+In 2018, I enrolled in the Developmental Psychology Program at Virginia Commonwealth University, where I conducted research on genetic and environmental influences on AUD and fostered my interest in the contribution of familial relationships to alcohol misuse. During my first year, I worked closely with data from FinnTwin12, a population-based study of Finnish twins who have been followed from adolescence through young adulthood. In collaboration with the FinnTwin12 investigators, I utilized a co-twin comparison design to examine associations of a wide array of adolescent factors with alcohol misuse1 and dependence2. This type of design controls for genetic and environmental influences that twin siblings share, allowing us to distinguish relevant targets for preventive intervention efforts from non-causal markers of familial liability. Our findings highlighted several adolescent factors, including alcohol expectancies, academic performance, substance use, externalizing and internalizing problems, and peer deviance, as putative targets for efforts to reduce alcohol misuse and problems.<br />
+<br/> Throughout the course of my research in developmental psychology, I also sought opportunities to integrate genetics into my work. I cultivated my interest in biological pathways to AUD by co-leading an epigenome-wide association study of alcohol consumption3, and I began to collaborate with Dr. Alexis Edwards at the Virginia Institute of Psychiatric and Behavioral Genetics, eventually transitioning to her lab as a graduate student in the Integrative Life Sciences – Behavioral and Statistical Genetics Ph.D. program in 2020. My work with Dr. Edwards offered the exciting opportunity to expand my research interests beyond alcohol misuse as an outcome, and I became increasingly interested in the relationship between AUD and suicidal behavior.<br />
+<br/> In my first project under Dr. Edwards’ mentorship, I tested the association between sibling diagnosis with AUD and one’s own risk for suicide attempt within the Swedish registries, which include medical, pharmacy, criminal, sociodemographic, and household data on the entire population of Sweden. Interestingly, we found that a sibling’s diagnosis with AUD was associated with elevated risk for suicide attempt, and suicide attempt risk declined as a function of time elapsed since the sibling’s diagnosis4. This work provided preliminary evidence for exposure to sibling AUD as an environmental risk factor for suicide attempt, suggesting that clinical outreach may be warranted following a sibling’s diagnosis with AUD.<br />
+<br/> Next, I expanded my study of the complex relationship between AUD and suicidal behavior by considering the role of impulsivity. Prior research on suicidal behavior has conceptualized impulsivity in two different ways: as an individual-level personality trait associated with elevated risk for suicide attempt and as a characteristic of the attempt itself. Correspondingly, I conducted two studies investigating the relationships among substance use and problems, suicide attempt, and impulsivity. In the first study, I derived a common genetic factor representing shared genetic liability for alcohol consumption, alcohol problems, and suicide attempt. This common genetic factor was significantly correlated with all five impulsive personality traits proposed by the UPPS-P Model of Impulsive Personality5, providing evidence for the genetic overlap between alcohol-related outcomes, suicide attempt, and features of impulsive personality (manuscript under review). In a second study, I instead considered the impulsivity of a suicide attempt, investigating associations of substance use and dependence with planned versus unplanned suicide attempts in a nationally representative sample. Although these analyses replicated previously established associations between substance-related outcomes and suicide attempt, there was little evidence that substance use and dependence were related to risk for unplanned suicidal behavior (manuscript in preparation). Taken together, these studies suggest that substance use and dependence may be more closely related to individual-level impulsivity than to the degree of planning associated with a suicide attempt.<br />
+<br/></p>
+<p><strong>Dissertation Analyses</strong><br />
+My doctoral dissertation brings together my interests in gene-environment interplay, familial relationships, impulsivity, and suicidal behavior by uniting indices of genetic liability with ideation-to-action theories of suicide. Ideation-to-action theories suggest that the primary predictor of suicide attempt among individuals experiencing suicidal ideation is their level of capability for suicide. The Interpersonal-Psychological Theory of Suicide (IPT), which is the first and perhaps most well-known ideation-to-action theory, further suggests that capability for suicide is acquired across development through exposure to physically painful and/or fear-inducing experiences, or painful and provocative events (PPEs)6. Though exposure to PPEs is thought to play a critical role in the development of acquired capability, few studies have empirically tested the relationship between PPE exposure and risk for suicide attempt.<br />
+<br/> Therefore, my dissertation research aims to clarify the role of PPEs in the transition from suicidal thoughts to behaviors. First, I will apply an extension of the co-twin comparison design – the co-relative model – to investigate the degree to which associations between a comprehensive set of PPEs (e.g., painful medical conditions, injuries, trauma) and risk for suicide attempt reflect a causal effect versus confounding by genetic and familial environmental factors. Second, I will empirically test one hypothesis forwarded by the IPT: that individuals at higher genetic risk for suicide attempt demonstrate higher levels of impulsivity and are more likely to seek out PPEs. Third, I will evaluate the role of parenting behaviors in the transition from suicidal ideation to attempt in adolescence, including potential interactions among parenting, genetic liability for suicide attempt, and PPE exposure. By investigating the relationships between PPEs, genetic risk for suicide attempt, impulsivity, parenting, and suicidal behavior, these analyses (currently underway) will yield insight into the predictive utility of ideation-to-action theories and highlight relevant risk factors for the transition from suicidal thoughts to behaviors.<br />
+<br/></p>
+<p><strong>Future Directions</strong><br />
+As I progress in my career, I will continue to explore the roles of familial relationships and genetic risk in the development of suicidal behavior. One avenue of particular interest is to examine risk for suicide attempt and death among individuals experiencing suicide bereavement, including how risk varies based on the nature of the relationship (i.e., whether the individual who died by suicide was their child, parent, spouse, sibling, etc.), prior psychiatric history, and genetic liability for suicide attempt. In addition, though substance use is not heavily featured in my dissertation work, alcohol use and misuse remain a focus of my research. In particular, I am interested in continuing to explore the nature of the relationship between alcohol-related outcomes and suicidal behavior. As genome-wide association studies are conducted with more nuanced suicide phenotypes, this will afford the opportunity to investigate how the genetic relationship between alcohol- and suicide-related outcomes varies based on characteristics of the suicide attempt (e.g., degree of planning and preparation, method used). The motivation for and characteristics of suicidal behavior are quite heterogeneous, raising the possibility that distinct etiological pathways are also involved.<br />
+<br/> Ultimately, my goal is to make meaningful contributions to the literature on suicidal behavior while also engaging students as research collaborators. Importantly, the interdisciplinary nature of my research will allow me to mentor students across academic disciplines, including biology and psychology. Because I primarily conduct secondary analyses of existing datasets, some of which are publicly available, my work is also scalable; I can work with students on relatively simple, semester-long research projects or develop their abilities to apply complex statistical methods to genetic and phenotypic data over a period of years. I am enthusiastic about sharing my experiences with passionate undergraduate students through academic collaboration and research mentorship, while pursuing innovative research.<br />
+<br/></p>
+<p><strong>References</strong><br />
+</p>
+<ol style="list-style-type: decimal">
+<li>Stephenson, M. <em>et al.</em> Which adolescent factors predict alcohol misuse in young adulthood? A co-twin comparisons study. <em>Addiction</em> <strong>115</strong>, 877–887 (2020).<br />
+</li>
+<li>Stephenson, M. <em>et al.</em> Predicting alcohol dependence symptoms by young adulthood: A co-twin comparisons study. <em>Twin Res. Hum. Genet.</em> <strong>24</strong>, 204–216 (2021).<br />
+</li>
+<li>Stephenson, M. <em>et al.</em> Associations of alcohol consumption with epigenome-wide DNA methylation and epigenetic age acceleration: Individual-level and co-twin comparison analyses. <em>Alcohol. Clin. Exp. Res.</em> <strong>45</strong>, 318–382 (2021).<br />
+</li>
+<li>Stephenson, M. E. <em>et al.</em> Sibling alcohol use disorder Is associated with increased risk for suicide attempt. <em>Clin. Psychol. Sci.</em> <strong>10</strong>, 374–382 (2022).<br />
+</li>
+<li>Whiteside, S. P. &amp; Lynam, D. R. The Five Factor Model and impulsivity: Using a structural model of personality to understand impulsivity. <em>Personal. Individ. Differ.</em> <strong>30</strong>, 669–689 (2001).<br />
+</li>
+<li>Joiner, T. <em>Why people die by suicide.</em> (Harvard University Press, 2005).</li>
+</ol>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

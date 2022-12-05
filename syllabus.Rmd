@@ -1,0 +1,77 @@
+---
+output: html_document
+---
+
+<center>
+### **SAMPLE SYLLABUS - PSYC 300: Psychiatric Genetics**\
+</center>
+<br/>
+**Course Information** \
+Fall 2022, 3 credits\
+MWF 10:00-11:00 AM\
+Trani Life Sciences Building, Room 255\
+<br/>
+
+**Instructor**\
+Mallory Stephenson, M.S.\
+E-mail: stephensonm2@vcu.edu\
+Office hours: Mon 2:00-4:00 PM, Wed 9:00-11:00 AM\
+<br/>
+
+**Course Description**\
+Welcome! This course provides an introduction to the genetic epidemiology of major psychiatric disorders. Intended for upper-level psychology majors, the course will address three main topics: (1) the fundamental principles of molecular biology, including Mendelian genetics and the central dogma; (2) molecular and biometrical methods relevant to the study of psychiatric disorders; and (3) the genetic epidemiology of major psychiatric disorders. Intended for upper-level psychology majors, PSYC 300: Psychiatric Genetics will provide students with a basic understanding of the role of genetic factors in the development of psychiatric outcomes.\
+<br/>
+
+**Course Objectives**\
+By the end of the course, students will:\
+1. Understand the fundamentals of nucleic acid structure and gene expression, including the processes of transcription, RNA processing, and translation.\
+2. Describe the principles of Mendelian inheritance and their relevance to quantitative variation.\
+3.	Summarize the molecular and biometrical methods used to study psychiatric disorders, and interpret the results generated from this type of research.\
+4.	Explain the basic concepts of psychiatric epidemiology, including heritability, gene-environment correlation, gene-environment interaction, and the liability threshold model.\
+5.	Synthesize and communicate research on genetic and environmental contributions to a psychiatric disorder of interest.\
+<br/>
+
+**Required Text:**\
+Flint, J., Greenspan, R. J., & Kendler, K. S. (2020). How Genes Influence Behavior (2nd ed.). Oxford University Press. ISBN 978-0-19-871687-7.\
+*Additional required course readings will be posted on Canvas.\
+<br/>
+
+**Prerequisites**\
+PSYC 210 – Introduction to Clinical Psychology\
+<br/>
+
+**Assessment**\
+Student evaluation will be based on:\
+<br/>
+*Exams (60%).* There will be three exams to assess your knowledge of the material covered during lecture. Exams will include multiple choice, short answer, and essay questions.\
+<br/>
+*Research paper (20%).* In lieu of a final exam, you will submit a research paper describing the basic genetic epidemiology of a psychiatric disorder. At the beginning of the semester, you will rank your top three choices from the following options: alcohol use disorder, attention-deficit/hyperactivity disorder, bipolar disorder, conduct disorder, eating disorders, generalized anxiety disorder, major depressive disorder, post-traumatic stress disorder, schizophrenia, and suicide. You will be assigned a disorder based on your interests and other students’ rankings to ensure than ~2-3 students cover each disorder. You will submit multiple intermediate assignments throughout the semester, each of which count toward your overall grade. The final product will be a 10-page research paper describing the role of genetic and environmental factors in the development of your assigned disorder. Detailed instructions regarding the research paper and intermediate assignments will be posted on Canvas.\
+<br/>
+*Homework (15%).* Take-home assignments will be given throughout the semester to help you review and practice the key concepts from lecture. Homework will be graded based on correctness and completion.\
+<br/>
+*Research paper summaries (5%).* For this assignment, you will be asked to read a research paper and submit a brief summary of the background, methods, results, and significance (~1-page single-spaced). Papers will be posted on Canvas. Two research paper summaries will be assigned during the semester.\
+<br/>
+
+**Grading**\
+60%	&emsp; &emsp; Exams (x3; 20% each)\
+20%	&emsp; &emsp; Research paper\
+15%	&emsp; &emsp; Homework\
+5%	&emsp; &emsp; &nbsp; Research paper summaries\
+<hr/>
+100% &emsp; &emsp; Total\
+<br/>
+
+**Grading Scale**\
+A	= 90-100\
+B = 80-89\
+C = 70-79\
+D = 60-69\
+F = 0-59\
+<br/>
+
+**University Policies**\
+Students should visit http://go.vcu.edu/syllabus and review all syllabus statement information. The full university syllabus statement includes information on safety, registration, the VCU Honor Code, student conduct, withdrawal, and more.\
+<br/>
+
+**Additional Resources**\
+Use VCU Libraries (https://www.library.vcu.edu/) to find and access library resources, spaces, technology, and services that support and enhance all learning opportunities at the university. 
