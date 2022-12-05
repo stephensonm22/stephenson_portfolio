@@ -9,6 +9,8 @@ navbar:
       href: cv.html
     - text: "RCR"
       href: rcr.html
+    - text: "Teaching"
+      href: teaching.html
     - text: "Career Plan"
       href: career.html
     - text: "Sample Activities"
